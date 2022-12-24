@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+/* convertires tu pagina en responsive al ponr lso valores flex para ubivar en el centro a tus objetos */
+.cuerpo{
+    background-color: rgb(114, 219, 245);
+}
+
+.cuerpo-calido{
+background-color: rgb(248, 250, 139);
+}
+
+.cuerpo-frio{
+      background-color: rgb(121, 155, 185)
+    }
+
+.cuerpo-nublado{
+background-color: rgb(78, 76, 82);
+}
+
+#centrador{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+#conteiner{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+   
+    
+}
+
+#boton_buscar{
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+    margin-top:12px;
+    width: 100px;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    padding:10px;
+    width:150px;
+    border-radius:20px;
+    font-size:15px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color:rgba(255, 255, 255, 0.37) ;
+}
+#boton_buscar:hover{
+    background-color: rgba(48, 47, 47, 0.418);
+}
+
+#input_ciudad{
+    display: flex;
+   align-items: center;
+   
+   flex-direction: column;
+    margin-top: 30px;
+    width: 300px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding:9px;
+    border-radius:20px;
+    border:1px solid black;
+   
+    font-size:22px;
+    background-color: rgba(255, 255, 255, 0.37);
+}
+
+#descripcion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+    
+   
+ 
+}
+
+#temperatura{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+   
+    
+   
+}
+
+#locacion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+   
+}
+
+
+#buscador_ciudades{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 0px;
+   
+ 
+   
+}
+
+
+
+
