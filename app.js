@@ -98,7 +98,13 @@ function resultado_clima() {
 
 }
 
-
+window.addEventListener("keydown",(e)=>{
+  if (e.keyCode === 13){
+    resultado_clima();
+  }
+ 
+  
+  })
 
 
 function drawWeather( d ) {
