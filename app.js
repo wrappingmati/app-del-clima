@@ -1,6 +1,6 @@
 function weatherBalloon( city ) {
     key = '43c888b90cb717a2884b2ed46e6a061c'
-    fetch('http://api.openweathermap.org/data/2.5/weather?q='+ city + '&appid=' + key + '&lang=sp ')  
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+ city + '&appid=' + key + '&lang=sp ')  
     .then(function(resp) { return resp.json() }) // Convert data to json
     .then(function(data) {
      
